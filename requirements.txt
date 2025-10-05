@@ -1,0 +1,12 @@
+torch
+transformers
+bitsandbytes
+accelerate
+openai
+tqdm
+sentence-transformers
+faiss-gpu
+scikit-learn
+numpy
+peft
+rouge-score

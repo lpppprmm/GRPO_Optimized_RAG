@@ -1,0 +1,21 @@
+# 忽略个人环境变量文件
+.env
+
+# 忽略 data 目录下的所有内容（除了 .gitkeep）
+data/*
+!data/.gitkeep
+
+# 忽略 Python 缓存和虚拟环境
+__pycache__/
+venv/
+env/
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+
+# 忽略所有结果文件和生成的数据（因为它们是可复现的）
+results/
+# evaluation_results/
+*.pkl
+*.index
